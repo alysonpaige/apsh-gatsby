@@ -3,14 +3,14 @@ import React from 'react'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+            <span className="icon fa-code"></span>
         </div>
         <div className="content">
             <div className="inner">
                 <h1>Alyson Paige</h1>
                 <p>Eat | Sleep | Code | Repeat
                     <br />
-                DC-based digital platform manager, web developer and soccer fanatic.
+                DC-based digital platform manager, web developer and soccer fanatic
                 </p>
             </div>
         </div>

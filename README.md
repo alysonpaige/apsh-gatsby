@@ -1,13 +1,5 @@
-# gatsby-starter-dimension
-Gatsby starter based on the Dimension site template, designed by [HTML5 UP](https://html5up.net/dimension). Check out https://hunterchang.com/gatsby-starters/ for more Gatsby starters and templates.
+# Personal Portfolio Website
 
-## Preview
+![gatsbyimg](https://user-images.githubusercontent.com/21123465/37049328-952bedee-213e-11e8-8f66-17186df88692.PNG)
 
-http://gatsby-dimension.surge.sh/
-
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-dimension https://github.com/ChangoMan/gatsby-starter-dimension`
-
-Run `gatsby develop` in the terminal to start.
+Using the [Dimension](https://github.com/ChangoMan/gatsby-starter-dimension) starter template with [Gatsby.js](https://www.gatsbyjs.org/).
