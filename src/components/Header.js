@@ -8,7 +8,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Alyson Paige</h1>
-                <p>Eat | Sleep | Code | Repeat
+                <p>Eat | Sleep | Code | Repeat 
                     <br />
                 DC-based digital platform manager, web developer and soccer fanatic
                 </p>
