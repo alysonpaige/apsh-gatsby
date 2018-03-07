@@ -38,11 +38,11 @@ class Main extends React.Component {
           </p>
           <p>
           For more about my experience and education, view my LinkedIn and Github:
-            <ul className="icons">
+          </p>
+          <ul className="icons">
               <li><a href="https://www.linkedin.com/in/alysonstiffel/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
               <li><a href="https://github.com/alysonpaige" className="icon fa-github"><span className="label">GitHub</span></a></li>
             </ul>
-          </p>
           {close}
         </article>
 
@@ -53,11 +53,11 @@ class Main extends React.Component {
           <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
           <p>
           Check out my LinkedIn and Github for details on the work I've done:
-            <ul className="icons">
+          </p>
+          <ul className="icons">
               <li><a href="https://www.linkedin.com/in/alysonstiffel/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
               <li><a href="https://github.com/alysonpaige" className="icon fa-github"><span className="label">GitHub</span></a></li>
             </ul>
-          </p>
           {close}
         </article>
 
