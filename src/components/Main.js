@@ -16,23 +16,32 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>I'm a highly organized and hard working professional. Extremely responsible with demonstrated ability to commit to projects. Acknowledged for enthusiasm and strength in analyzing issues and resolving challenging problems. Exceptional ability to create trust and build lasting relationships. Strong leadership abilities as well as communication skills (English &amp; Spanish) allowing for successful interaction with people of diverse backgrounds, cultures and professional levels. Check out my <a href="https://github.com/alysonpaige">Github</a> for details on the work I've done.</p>
+          <p>I'm a highly organized and hard working professional. Extremely responsible with demonstrated ability to commit to projects. Acknowledged for enthusiasm and strength in analyzing issues and resolving challenging problems. Exceptional ability to create trust and build lasting relationships. Strong leadership abilities as well as communication skills (English &amp; Spanish) allowing for successful interaction with people of diverse backgrounds, cultures and professional levels.</p>
           <p>
-          Core Languages &amp; Skills:
+          <strong>Core Languages &amp; Skills:</strong>
           <br />
-          HTML, CSS, Javascript, jQuery, Ruby, Rails
+          HTML5, CSS3, Javascript, Ruby
           <br />
           Git, Github, Algorithms, APIs, Mobile &amp; Responsive Design
           <br /> <br />
-          Libraries, Tools &amp; Software:
+          <strong>Libraries, Tools &amp; Software:</strong>
           <br />
-          Bootstrap, Foundation, WordPress, React.js, Heroku, Netlify, Slack, Trello
+          jQuery, Bootstrap, Foundation, Ruby on Rails, WordPress, React.js 
+          <br />
+          Heroku, Netlify, Slack, Trello
           <br />
           Microsoft Office, Photoshop, Illustrator
           <br /> <br />
-          Marketing:
+          <strong>Marketing:</strong>
           <br />
           SEO, Google Analytics, Social Media
+          </p>
+          <p>
+          For more about my experience and education, view my LinkedIn and Github:
+            <ul className="icons">
+              <li><a href="https://www.linkedin.com/in/alysonstiffel/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+              <li><a href="https://github.com/alysonpaige" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            </ul>
           </p>
           {close}
         </article>
@@ -42,6 +51,13 @@ class Main extends React.Component {
           <span className="image main"><img src={pic02} alt="" /></span>
           <p>Over the years, I've had the pleasure of working on many great projects with wonderful people and companies.</p>
           <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <p>
+          Check out my LinkedIn and Github for details on the work I've done:
+            <ul className="icons">
+              <li><a href="https://www.linkedin.com/in/alysonstiffel/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+              <li><a href="https://github.com/alysonpaige" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            </ul>
+          </p>
           {close}
         </article>
 
