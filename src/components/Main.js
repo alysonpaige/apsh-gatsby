@@ -16,14 +16,15 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>I'm a highly organized and hard working professional. Extremely responsible with demonstrated ability to commit to projects. Acknowledged for enthusiasm and strength in analyzing issues and resolving challenging problems. Exceptional ability to create trust and build lasting relationships. Strong leadership abilities as well as communication skills (English &amp; Spanish) allowing for successful interaction with people of diverse backgrounds, cultures and professional levels.</p>
+          <p>I'm a highly organized and hard working professional. Extremely responsible with a demonstrated ability to commit to projects and see them through. Acknowledged for enthusiasm and strength in analyzing issues and resolving challenging problems with an exceptional ability to create trust and build lasting relationships. I have strong leadership capabilities as well as communication skills in both English &amp; Spanish, allowing for successful interaction with people of diverse backgrounds, cultures and professional levels.</p>
           <p>
           <strong>Core Languages &amp; Skills:</strong>
           <br />
           HTML5, CSS3, Javascript, Ruby
           <br />
           Git, Github, Algorithms, APIs, Mobile &amp; Responsive Design
-          <br /> <br />
+          </p>
+          <p>
           <strong>Libraries, Tools &amp; Software:</strong>
           <br />
           jQuery, Bootstrap, Foundation, Ruby on Rails, WordPress, React.js 
@@ -31,11 +32,13 @@ class Main extends React.Component {
           Heroku, Netlify, Slack, Trello
           <br />
           Microsoft Office, Photoshop, Illustrator
-          <br /> <br />
+          </p>
+          <p>
           <strong>Marketing:</strong>
           <br />
           SEO, Google Analytics, Social Media
           </p>
+          <hr />
           <p>
           For more about my experience and education, view my LinkedIn and Github:
           </p>
@@ -51,6 +54,7 @@ class Main extends React.Component {
           <span className="image main"><img src={pic02} alt="" /></span>
           <p>Over the years, I've had the pleasure of working on many great projects with wonderful people and companies.</p>
           <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <hr />
           <p>
           Check out my LinkedIn and Github for details on the work I've done:
           </p>
