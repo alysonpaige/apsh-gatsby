@@ -65,7 +65,7 @@ class Main extends React.Component {
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
           <p>I'm Alyson Paige, a full stack web developer in DC. I currently work for a nonprofit and love to learn from the community and share what I know through meetups, discussion boards and volunteering.</p>
-          <p>When I'm not burried in code, I love spending time with my husband and hiking, cycling, travelling and watching Netflix and soccer. Did I mention soccer? I love soccer.</p>
+          <p>When I'm not burried in code, I love spending time with my husband and reading, hiking, cycling, travelling and watching Netflix and soccer. Did I mention soccer? I love soccer.</p>
           {close}
         </article>
 
