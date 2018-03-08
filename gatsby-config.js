@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Alyson Paige",
     author: "apsh",
-    description: "Personal portfolio of Alyson Paige"
+    description: "Web Developer, Digital Strategist, and Open Source Advocate"
   },
   pathPrefix: '/',
   plugins: [
@@ -32,6 +32,24 @@ module.exports = {
           },
           "gatsby-remark-copy-linked-files",
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/favicon.png",
+        injectHTML: true,
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          twitter: false,
+          yandex: false,
+          windows: false
+        },
       },
     },
     `gatsby-transformer-sharp`,

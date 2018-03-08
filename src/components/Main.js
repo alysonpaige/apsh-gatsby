@@ -16,16 +16,16 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>{"I'm highly organized, hard working, and an extremely responsible professional with a demonstrated ability to commit to projects. I have enthusiasm and passion for my work with a strength in analyzing issues and resolving challenging problems. I strive to create trust and build lasting relationships, both personally and professionally. I have strong leadership capabilities as well as communication skills in both English &amp; Spanish, allowing for successful interaction with people of diverse backgrounds, cultures and professional levels."}</p>
+          <p>{"I'm highly organized, hard working, and an extremely responsible professional with a demonstrated ability to commit to projects. I have enthusiasm and passion for my work with a strength in analyzing issues and resolving challenging problems. I strive to create trust and build lasting relationships, both personally and professionally. I have strong leadership capabilities as well as communication skills in both English & Spanish, allowing for successful interaction with people of diverse backgrounds, cultures and professional levels."}</p>
           <p>
-          <strong>{"Core Languages &amp; Skills:"}</strong>
+          <strong>Core Languages &amp; Skills:</strong>
           <br />
           HTML5, CSS3, Javascript, Ruby
           <br />
-          {"Git, Github, Algorithms, APIs, Mobile &amp; Responsive Design"}
+          Git, Github, Algorithms, APIs, Mobile &amp; Responsive Design
           </p>
           <p>
-          <strong>{"Libraries, Tools &amp; Software:"}</strong>
+          <strong>Libraries, Tools &amp; Software:</strong>
           <br />
           jQuery, Bootstrap, Foundation, Ruby on Rails, WordPress, React.js 
           <br />
@@ -34,7 +34,7 @@ class Main extends React.Component {
           Microsoft Office, Photoshop, Illustrator
           </p>
           <p>
-          <strong>{"Marketing:"}</strong>
+          <strong>Marketing:</strong>
           <br />
           SEO, Google Analytics, Social Media
           </p>
