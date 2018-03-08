@@ -72,15 +72,15 @@ class Main extends React.Component {
           <form method="post" action="#" data-netlify="true" data-netlify-honeypot="bot-field">
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" placeholder="Required" required/>
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="email" name="email" id="email" placeholder="Required" required/>
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="message" id="message" rows="4" placeholder="Say hello, share a joke or just get in touch..." required></textarea>
             </div>
             <div data-netlify-recaptcha></div>
             <ul className="actions">
