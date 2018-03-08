@@ -16,16 +16,16 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>I'm a highly organized and hard working professional and am extremely responsible with a demonstrated ability to commit to projects from beginning to end. I have enthusiasm and passion for my work with a strength in analyzing issues and resolving challenging problems. I strive to create trust and build lasting relationships, both personally and professionally. I have strong leadership capabilities as well as communication skills in both English &amp; Spanish, allowing for successful interaction with people of diverse backgrounds, cultures and professional levels.</p>
+          <p>{"I'm highly organized, hard working, and an extremely responsible professional with a demonstrated ability to commit to projects. I have enthusiasm and passion for my work with a strength in analyzing issues and resolving challenging problems. I strive to create trust and build lasting relationships, both personally and professionally. I have strong leadership capabilities as well as communication skills in both English &amp; Spanish, allowing for successful interaction with people of diverse backgrounds, cultures and professional levels."}</p>
           <p>
-          <strong>Core Languages &amp; Skills:</strong>
+          <strong>{"Core Languages &amp; Skills:"}</strong>
           <br />
           HTML5, CSS3, Javascript, Ruby
           <br />
-          Git, Github, Algorithms, APIs, Mobile &amp; Responsive Design
+          {"Git, Github, Algorithms, APIs, Mobile &amp; Responsive Design"}
           </p>
           <p>
-          <strong>Libraries, Tools &amp; Software:</strong>
+          <strong>{"Libraries, Tools &amp; Software:"}</strong>
           <br />
           jQuery, Bootstrap, Foundation, Ruby on Rails, WordPress, React.js 
           <br />
@@ -34,7 +34,7 @@ class Main extends React.Component {
           Microsoft Office, Photoshop, Illustrator
           </p>
           <p>
-          <strong>Marketing:</strong>
+          <strong>{"Marketing:"}</strong>
           <br />
           SEO, Google Analytics, Social Media
           </p>
@@ -49,8 +49,8 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Over the years, I've had the pleasure of working on many great projects with wonderful people and companies.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <p>{"Over the years, I've had the pleasure of working on many great projects with wonderful people and companies."}</p>
+          <p>{"Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus."}</p>
           <hr />
           <ul className="icons">
               <li><a href="https://www.linkedin.com/in/alysonstiffel/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
@@ -62,8 +62,8 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>I'm Alyson Paige, a full stack web developer based in DC. I currently work for a nonprofit and love to learn from the community and share what I know through meetups, discussion boards and volunteering.</p>
-          <p>When I'm not burried in code, I love spending time with my husband and reading, hiking, cycling, travelling and watching Netflix and soccer. Did I mention soccer? I love soccer.</p>
+          <p>{"I'm Alyson Paige, a full stack web developer based in DC. I currently work for a nonprofit and love to learn from the community and share what I know through meetups, discussion boards and volunteering."}</p>
+          <p>{"When I'm not burried in code, I love spending time with my husband and reading, hiking, cycling, travelling and watching Netflix and soccer. Did I mention soccer? I love soccer."}</p>
           {close}
         </article>
 
