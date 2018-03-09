@@ -72,15 +72,15 @@ class Main extends React.Component {
           <form method="post" action="#" data-netlify="true" data-netlify-honeypot="bot-field">
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" placeholder="Required" required/>
+              <input type="text" name="name" id="name" required/>
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" placeholder="Required" required/>
+              <input type="email" name="email" id="email" required/>
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4" placeholder="Say hello, share a joke or just get in touch..." required></textarea>
+              <textarea name="message" id="message" rows="4" placeholder="Share a joke or just say hello..." required></textarea>
             </div>
             <div data-netlify-recaptcha></div>
             <ul className="actions">
@@ -88,6 +88,7 @@ class Main extends React.Component {
               <li><input type="reset" value="Reset" /></li>
             </ul>
           </form>
+          <hr />
           <ul className="icons">
             <li><a href="https://www.linkedin.com/in/alysonstiffel/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
             <li><a href="https://github.com/alysonpaige" className="icon fa-github"><span className="label">GitHub</span></a></li>
