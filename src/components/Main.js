@@ -16,7 +16,7 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>{"I'm highly organized, hard working, and an extremely responsible professional with a demonstrated ability to commit to projects. I have enthusiasm and passion for my work with a strength in analyzing issues and resolving challenging problems. I strive to create trust and build lasting relationships, both personally and professionally. I have strong leadership capabilities as well as communication skills in both English & Spanish, allowing for successful interaction with people of diverse backgrounds, cultures and professional levels."}</p>
+          <p>{"I'm highly organized, hard working, and an extremely responsible professional with a demonstrated ability to commit to projects. I have enthusiasm and passion for my work with a strength in analyzing issues and resolving challenging problems. I strive to create trust and build lasting relationships, both personally and professionally. I also have strong leadership capabilities as well as communication skills in both English & Spanish, allowing for successful interaction with people of diverse backgrounds, cultures and professional levels."}</p>
           <p>
           <strong>Core Languages &amp; Skills:</strong>
           <br />
@@ -62,8 +62,32 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>{"I'm Alyson Paige, a full stack web developer based in DC. I currently work for a nonprofit and love to learn from the community and share what I know through meetups, discussion boards and volunteering."}</p>
-          <p>{"When I'm not burried in code, I love spending time with my husband and reading, hiking, cycling, travelling and watching Netflix and soccer. Did I mention soccer? I love soccer."}</p>
+          <p>{"I'm Alyson Paige, a full stack web developer based in DC. I've always had a soft spot for technology and a few years ago I saw an opportunity for personal growth and the chance to enhance my knowledge in an industry that I love but which is rapidly growing and changing. I currently work for a nonprofit and enjoy learning from the community and sharing what I know through meetups, discussion boards and volunteering."}</p>
+          <p>{"When I'm not burried in code, I love spending time with my husband and doing the following:"}</p>
+          <ul>
+            <li>
+              Reading
+            </li>
+            <li>
+              Travelling
+            </li>
+            <li>
+              Soccer
+            </li>
+            <li>
+              Listening to podcasts and audiobooks
+            </li>
+            <li>
+              Cycling &amp; hiking
+            </li>
+            <li>
+              {"Sleeping (highly recommend this activity)"}
+            </li>
+            <li>
+              Watching Netflix and soccer
+            </li>
+          </ul>
+          <p>Did I mention soccer? I love soccer.</p>
           {close}
         </article>
 
@@ -80,7 +104,7 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4" placeholder="Share a joke or just say hello..." required></textarea>
+              <textarea name="message" id="message" rows="4" placeholder="Share a joke or just get in touch and say hello..." required></textarea>
             </div>
             <div data-netlify-recaptcha></div>
             <ul className="actions">
