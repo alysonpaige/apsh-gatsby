@@ -42,7 +42,7 @@ class Main extends React.Component {
           <ul className="icons">
               <li><a href="https://www.linkedin.com/in/alysonstiffel/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
               <li><a href="https://github.com/alysonpaige" className="icon fa-github"><span className="label">GitHub</span></a></li>
-            </ul>
+          </ul>
           {close}
         </article>
 
@@ -55,14 +55,14 @@ class Main extends React.Component {
           <ul className="icons">
               <li><a href="https://www.linkedin.com/in/alysonstiffel/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
               <li><a href="https://github.com/alysonpaige" className="icon fa-github"><span className="label">GitHub</span></a></li>
-            </ul>
+          </ul>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>{"I'm Alyson Paige, a full stack web developer based in DC. I've always had a soft spot for technology and a few years ago I saw an opportunity for personal growth and the chance to enhance my knowledge in an industry that I love but which is rapidly growing and changing. I currently work for a nonprofit and enjoy learning from the community and sharing what I know through meetups, discussion boards and volunteering."}</p>
+          <p>{"I'm Alyson Paige, a full stack web developer based in DC. I've always had a soft spot for technology and a few years ago I saw an opportunity for personal growth and to enhance my knowledge in an industry that I love but which is rapidly changing and growing. I enjoy learning from the community and sharing what I know through meetups, discussion boards and volunteering."}</p>
           <p>{"When I'm not burried in code, I love spending time with my husband and doing the following:"}</p>
           <ul>
             <li>
@@ -88,6 +88,15 @@ class Main extends React.Component {
             </li>
           </ul>
           <p>Did I mention soccer? I love soccer.</p>
+
+          {/* <p>{"PS. You might be wondering what the 'sh' stands for. It's the initials of my maiden and married name. They're both a little long and difficult to pronounce and I've always gone by my first and middle anyway."}</p> */}
+
+          <hr />
+          <ul className="icons">
+            <li><a href="https://www.linkedin.com/in/alysonstiffel/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/alysonpaige" className="icon fa-github"><span className="label">GitHub</span></a></li>
+          </ul>
+          
           {close}
         </article>
 
