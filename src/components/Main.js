@@ -50,7 +50,17 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
           <p>{"Over the years, I've had the pleasure of working on many great projects with wonderful people and companies."}</p>
-          <p>{"Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus."}</p>
+          <h3>{"Projects:"}</h3>
+          <p><strong>{"To Do List: "}</strong> {"A dynamic, database-driven web app that fetches data using RESTful JSON APIs from Rails and uses JavaScript to dynamically update the page."}</p>
+          <p><strong>{"Grammable: "}</strong> {"An Instagram clone built using automated software tests (TDD) in Ruby with RSpec."}</p>
+          <p><strong>{"Flixter: "}</strong> {"A two sided video streaming marketplace platform, featuring credit card payment capabilities, user role management, complex user interfaces and advanced database relationships."}</p>
+          <p><strong>{"Nomster: "}</strong> {"A Yelp clone that integrates with Google Maps API and includes features like user comments, star ratings, image uploading, and user authentication."}</p>
+          <p><strong>{"Splurty: "}</strong> {"A database-powered quote generator with mobile-first design, using the Ruby on Rails framework, HTML and CSS."}</p>
+          <h3>{"Open Source Contributions:"}</h3>
+          <p><em>{"Coming Soon"}</em></p>
+          {/* <p>{"Gatsby Documentation"}</p>
+          <p>{"CodeBuddies"}</p>
+          <p>{"Gitcoin"}</p> */}
           <hr />
           <ul className="icons">
               <li><a href="https://www.linkedin.com/in/alysonstiffel/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
@@ -62,7 +72,7 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>{"I'm Alyson Paige, a full stack web developer based in DC. I've always had a soft spot for technology and a few years ago I saw an opportunity for personal growth and to enhance my knowledge in an industry that I love but which is rapidly changing and growing. I enjoy learning from the community and sharing what I know through meetups, discussion boards and volunteering."}</p>
+          <p>{"I'm Alyson Paige, a full stack web developer based in DC. I've always had a soft spot for technology. A few years ago, I saw an opportunity for personal growth and to enhance my knowledge in an industry that I love but which is rapidly changing and growing. I enjoy learning from the community and sharing what I know through meetups, discussion boards and volunteering."}</p>
           <p>{"When I'm not burried in code, I love spending time with my husband and doing the following:"}</p>
           <ul>
             <li>
