@@ -51,6 +51,7 @@ class Main extends React.Component {
           <span className="image main"><img src={pic02} alt="" /></span>
           <p>{"Over the years, I've had the pleasure of working on many great projects with wonderful people and companies."}</p>
           <h3>{"Projects:"}</h3>
+          <p><strong>{"Budgety: "}</strong> {"A beautifully simple budget app using JavaScript, HTML, and CSS."}</p>
           <p><strong>{"To Do List: "}</strong> {"A dynamic, database-driven web app that fetches data using RESTful JSON APIs from Rails and uses JavaScript to dynamically update the page."}</p>
           <p><strong>{"Grammable: "}</strong> {"An Instagram clone built using automated software tests (TDD) in Ruby with RSpec."}</p>
           <p><strong>{"Flixter: "}</strong> {"A two sided video streaming marketplace platform, featuring credit card payment capabilities, user role management, complex user interfaces and advanced database relationships."}</p>
